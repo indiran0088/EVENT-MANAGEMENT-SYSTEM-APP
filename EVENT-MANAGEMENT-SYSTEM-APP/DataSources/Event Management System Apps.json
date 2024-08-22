@@ -1,0 +1,150 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "crbea_eventmana11d09s",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "crbea_eventmana11d09",
+    "MaxGetRowsCount": 500,
+    "Name": "Event Management System Apps",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "crbea_attende": "Attendees",
+      "crbea_categor": "Category",
+      "crbea_cost": "Cost",
+      "crbea_cost_base": "Cost (Base)",
+      "crbea_date": "Date",
+      "crbea_eventid": "Event ID",
+      "crbea_eventmana11d09_AsyncOperations": "System Jobs",
+      "crbea_eventmana11d09_BulkDeleteFailures": "Bulk Delete Failures",
+      "crbea_eventmana11d09_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "crbea_eventmana11d09_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "crbea_eventmana11d09_ProcessSession": "Process Sessions",
+      "crbea_eventmana11d09_SyncErrors": "Sync Errors",
+      "crbea_eventmana11d09id": "Event Management System App",
+      "crbea_eventna": "Event Name",
+      "crbea_locatio": "Location",
+      "crbea_organiz": "Organizer",
+      "crbea_registr": "Registration Open",
+      "crbea_time": "Time",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Event Management System Apps",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Event Management System Apps (Views)",
+    "Name": "_crbea_eventmana11d09_views",
+    "RelatedEntityName": "Event Management System Apps",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "395d918a-9b89-491c-a35c-eff8b1833e41": "Active Event Management System Apps",
+      "483c7341-6699-4186-891b-d8df279b65b6": "Event Management System App Associated View",
+      "7bcc37b9-d42e-4670-8d64-057b99c13b7f": "Inactive Event Management System Apps",
+      "df582c31-dbcb-49df-aaf0-b65764d7845b": "Event Management System App Lookup View",
+      "ee6c643e-7c76-4874-9e3e-4f582c95f5cc": "Event Management System App Advanced Find View"
+    }
+  },
+  {
+    "DisplayName": "Category (Event Management System Apps)",
+    "Name": "crbea_eventmana11d09_crbea_categor",
+    "OptionSetInfoNameMapping": {
+      "88445": "Conference",
+      "88446": "Seminar",
+      "88447": "Workshop",
+      "88448": "Networking Event",
+      "88449": "Trade Show"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crbea_categor",
+        "OptionSetReferenceEntityName": "Event Management System Apps"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "crbea_categor",
+    "RelatedEntityName": "Event Management System Apps",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Registration Open (Event Management System Apps)",
+    "Name": "crbea_eventmana11d09_crbea_registr",
+    "OptionSetInfoNameMapping": {
+      "0": "Yes",
+      "1": "No"
+    },
+    "OptionSetIsBooleanValued": true,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "crbea_registr",
+        "OptionSetReferenceEntityName": "Event Management System Apps"
+      }
+    },
+    "OptionSetTypeKey": "BooleanType",
+    "RelatedColumnInvariantName": "crbea_registr",
+    "RelatedEntityName": "Event Management System Apps",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Event Management System Apps)_1",
+    "Name": "crbea_eventmana11d09_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Event Management System Apps"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Event Management System Apps",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Event Management System Apps)_1",
+    "Name": "crbea_eventmana11d09_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Event Management System Apps"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Event Management System Apps",
+    "Type": "OptionSetInfo"
+  }
+]

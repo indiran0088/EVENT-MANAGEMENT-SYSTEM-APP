@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Event Management System Apps\",\"%DataSourceValue.AFD%\":\"[@'Event Management System Apps']\",\"%SortFieldName.AFD%\":\"\\\"crbea_eventid\\\"\",\"%FilterFieldName.AFD%\":\"crbea_eventid\",\"%PrimaryNameField.AFD%\":\"crbea_eventid\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Event ID'\",\"%SearchFieldName.AFD%\":\"crbea_eventid,crbea_eventna,crbea_locatio\",\"%StartsWithFieldName.AFD%\":\"crbea_eventid\",\"%DeleteConfirmFieldName.AFD%\":\"crbea_eventid\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"'Event Management System Apps screen'\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}
